@@ -37,25 +37,12 @@
   <div class="section">
     <h2>Debian / Ubuntu (APT)</h2>
     <p>Add this repository to your system:</p>
-    <pre>echo "deb [arch=amd64] https://<username>.github.io/<repo>/apt-repo stable main" | sudo tee /etc/apt/sources.list.d/myrepo.list
+    <pre>
+curl -fsSL https://volodymyrskliar.github.io/downloads/public.key | sudo gpg --dearmor -o /usr/share/keyrings/scalr.gpg
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/scalr.gpg] https://volodymyrskliar.github.io/downloads/apt-repo stable main" | sudo tee /etc/apt/sources.list.d/scalr.list
 sudo apt update
-sudo apt install &lt;package-name&gt;</pre>
+sudo apt install scalr-agent</pre>
     <p><a href="./debian/">Browse Debian Repository</a></p>
-  </div>
-
-  <div class="section">
-    <h2>RHEL / CentOS / Fedora (YUM/DNF)</h2>
-    <p>Create a new repo file:</p>
-    <pre>sudo tee /etc/yum.repos.d/myrepo.repo &lt;&lt;EOF
-[myrepo]
-name=My Custom Repo
-baseurl=https://<username>.github.io/<repo>/rpm
-enabled=1
-gpgcheck=0
-EOF
-
-sudo dnf install &lt;package-name&gt;</pre>
-    <p><a href="./rpm/">Browse RPM Repository</a></p>
   </div>
 
   <footer>
