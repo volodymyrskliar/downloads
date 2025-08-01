@@ -38,7 +38,7 @@
     <h2>Debian / Ubuntu (APT)</h2>
     <p>Add this repository to your system:</p>
     <pre>
-curl -fsSL https://volodymyrskliar.github.io/downloads/public.key | sudo gpg --dearmor -o /usr/share/keyrings/scalr.gpg
+curl -fsSL https://volodymyrskliar.github.io/downloads/pgp-key.public | sudo gpg --dearmor -o /usr/share/keyrings/scalr.gpg
 echo "deb [arch=amd64 signed-by=/usr/share/keyrings/scalr.gpg] https://volodymyrskliar.github.io/downloads/apt-repo stable main" | sudo tee /etc/apt/sources.list.d/scalr.list
 sudo apt update
 sudo apt install scalr-agent</pre>
