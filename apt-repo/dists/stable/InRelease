@@ -1,0 +1,47 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: Example Repository
+Label: Example
+Suite: stable
+Codename: stable
+Version: 1.0
+Architectures: amd64
+Components: main
+Description: An example software repository
+Date: Fri, 01 Aug 2025 14:12:17 +0000
+MD5Sum:
+ b30e0a69d1b7d4b592963d6d6a1b6100 214 dists/stable/Release
+ c61942453d84b4dc6ea7461a20bfccc0 541 dists/stable/main/binary-amd64/Packages
+ 0889a1393740a3a653e4646f287bfe6c 381 dists/stable/main/binary-amd64/Packages.gz
+ 66ee820bc9fcd581ae337314661a6f59 214586148 pool/main/scalr-agent_0.40.0~20250307134445-gitb2fe657_amd64.deb
+ f375de661380fbab8290c007fb718dd5 601 generate-release.sh
+SHA1:
+ 32ba8da15e7e3deeedde05017c4aab8c348bc0ff 605 dists/stable/Release
+ 92780057e97cc639c01e1b43cbbcdee7b1787b2f 541 dists/stable/main/binary-amd64/Packages
+ 2e48a9fbfab8c2c26274609e64cb6e11758bdb91 381 dists/stable/main/binary-amd64/Packages.gz
+ 12ee4ce85adf24da0a3714789baa7f9324d9db31 214586148 pool/main/scalr-agent_0.40.0~20250307134445-gitb2fe657_amd64.deb
+ 727fce52ea32f8dc7f51a78797414f2e40e76b11 601 generate-release.sh
+SHA256:
+ c8a454774f5a9304ecead831cddd7a58db81ad8c8d4401e5564d61750add337f 1038 dists/stable/Release
+ e06cbe373c797a2c851a912280b2b0e7c7e0c2eb06b1b2400cb3ca82002bdc1c 541 dists/stable/main/binary-amd64/Packages
+ 6a261b5cf0af1b11c039e6b8d36ce212c7201bcdb50e16921a22b7bb95267bdc 381 dists/stable/main/binary-amd64/Packages.gz
+ 27d3b1a29990e8049989fb1ccb1c93dd947fbbf0ddb8bcaab7688859c39524a4 214586148 pool/main/scalr-agent_0.40.0~20250307134445-gitb2fe657_amd64.deb
+ e4bf094e954e4951376c262d895e42d1e7d694add4821ac3059dad91ef4410c5 601 generate-release.sh
+-----BEGIN PGP SIGNATURE-----
+
+iQJIBAEBCgAyFiEERW78qASFTyYivK8TV9erVAtZPukFAmiM10sUHGV4YW1wbGVA
+ZXhhbXBsZS5jb20ACgkQV9erVAtZPulieg//Y7P+qNCUUGuc0oUGpDriiSRdY0xH
+Ont1VgAWjw1BjrUjeBknNzexxpRO3CasjwIP4w7YTe7N9vXCCSF7mzSmM6PplpBH
+cwuQbIs4KL90Ob16+jGAqG6p3Ql+IT58Fv8/NIQ2soYvgZwNvmRJOAJNEsudkqP+
+Crc4NMN/45vIZwm4Zl2/NVhsJmyb8MjAmPBgaeSq8+1XrP13ROutq/jy5WBmo+Ic
+3IyNgJp24PJfr5IjABF2kJtNGTy/tL33bJ5usgKUzWOgDBwOOoYraLm/AKoev5A4
+JhWFexgl/yj/YSCWNVs8FwtbqDYmT7iNihWK+cSnlmefeDLzHDAk35h7765d/21l
+TDQUhdoRE9Lo3kCNkkdO2t5XZlvlAFdoNdhoa9kWCQ2aVgNEcCrmqEvNfqXsBwxJ
+FFKyivUCX3cgfd06m05Gu3G3e2hUIJb2l31KAuPHq/aJ0DbT43APBftgLHPr5Y01
+YkcAeBnfmPIilqs6BlDOZPO8n3tLTtRQdXUiqZlIrip1/QYCJO/8wOdx/Iyjlj73
+oluwg9i8JMalqTvEqC3ceEcieOUq+8+6a5K5hh0b5hIL4MI1GrXhDqX3H5PORNo7
+PJTLATnXdv2XDD5PkMh/SmCKTPUXnaHHGgLz8FPbDfydefkAZ2oXNwwFuMnm/JQs
+vpmUAPcEyH0Udnc=
+=zJYw
+-----END PGP SIGNATURE-----
